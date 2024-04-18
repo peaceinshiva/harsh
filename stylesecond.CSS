@@ -1,0 +1,89 @@
+
+body{
+  scroll-behavior: smooth;
+}
+        .paras{
+            color: white;
+            padding: 100px;
+            font-size: larger;
+        }
+     
+       
+        h2{
+             -webkit-animation: myfirst 3s infinite;
+            animation: myfirst 3s infinite;
+        }
+        @-webkit-keyframes myfirst{
+            from{
+                color:  #9B7909;
+            }
+            to{
+                color: #ffc43b;
+            }
+        }
+      
+        body {
+            padding: 25px;
+            background-color: white;
+            color: black;
+            font-size: 25px;
+            
+          }
+          
+          .dark-mode {
+            background-color:rgb(7, 7, 7);
+            color:white;
+          }
+          .ho_img {
+            position: relative;
+            text-align: center;
+            color: white;
+          }
+          
+          .ho_img .centered {
+            position: absolute;
+            top: 30%;
+            left: 20%;
+            font-size:45px;
+            transform: translate(-50%, -50%);
+            text-shadow: 2px 2px 	#ff0000;
+          
+          }
+          
+          
+          .font-effect-fire{
+            font-size: 7vh;
+          
+          }
+          
+          
+          
+                  .fon{
+                      font-family: "Sofia", sans-serif;
+                  }
+                 .point{
+              text-align: right;
+                 }
+                 @media only screen and (max-width: 700px) {
+            body {
+              background-color: lightblue;
+          
+          
+              
+            }
+            .ho_img .centered {
+            position: absolute;
+            top: 50%;
+            left: 20%;
+            font-size:x-large;
+            transform: translate(-50%, -50%);
+            text-shadow: 2px 2px 	#ff0000;
+          
+          }
+          }
+          .our-team{
+         font-size: 25px;
+color: black ;
+font-family: 'Alice';
+          }
+  
